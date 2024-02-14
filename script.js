@@ -37,5 +37,5 @@ const bob = new Employee("Bob","30","Manager");
 bob.greet();
 bob.jobGreet();
 // Do not change code below this line
-window.Person = Person;
-window.Employee = Employee;
+// window.Person = Person;
+// window.Employee = Employee;
