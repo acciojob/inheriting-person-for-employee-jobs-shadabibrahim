@@ -31,11 +31,11 @@ class Employee extends Person{
 		console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${this.jobTitle}.`)
 	}
 }
-const p1 = new Person("Alice",25);
-p1.greet();
-const emp1 = new Employee("Bob","30","Manager");
-// emp1.jobGreet();
-emp1.greet();;
+const alice = new Person("Alice",25);
+alice.greet();
+const bob = new Employee("Bob","30","Manager");
+bob.greet();
+bob.jobGreet();
 // Do not change code below this line
 window.Person = Person;
 window.Employee = Employee;
